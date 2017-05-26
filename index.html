@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Iditec</title>
+  <!-- hojas de estilo, Bootstrap 3 y una personalizada -->
+  <link rel="stylesheet" href="lib/css/main.css">
+  <link rel="stylesheet" href="lib/css/bootstrap.min.css">
+  
+  <!-- Archivos Javascript -->
+  <script src="lib/js/bootstrap.min.js"></script>
+  <script src="lib/js/angular.min.js"></script>
+  <script src="app/directives.js"></script>
+  <script src="app/controllers/AplicacionController.js"></script>
+  <script src="app/app.js"></script>
+</head>
+<!-- ng-app es la directiva nativa de angular que me permite declarar la aplicación que controlaremos con los
+  distintos controllers que implementemos, en este caso con la directiva ng-controller -->
+<body ng-app="app" ng-controller="applicationController">
+  <!-- la doble expresión de {{}} o ng-bind nos permite acceder desde nuestro archivo app.js mediante el uso del $scope
+    es decir en este caso "ejemplo" funciona como una simple variable y nuestro {{}} como un print sobre nuestro 
+    navegador " -->
+  <div>
+    <div class="row" align="center">
+      <img src="/lib/img/header.png" width="95%">
+      <nav-example></nav-example>
+    </div>
+  </div>
+    
+  <div class="container" ng-include="menu">
+    
+  </div>
+
+  <div class="footer" align="center">
+    <div class="row">
+      <img src="/lib/img/footer.png" width="95%">
+    </div>
+  </div>
+
+  
+  
+</body>
+</html>
