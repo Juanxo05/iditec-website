@@ -1,10 +1,15 @@
-
+.btn-group{
+	background-image: url(/lib/img/navbar.png); 
+	background-repeat: no-repeat;
+	width: 95%
+	
+}
 
 .inicio{
 	border-radius: 200px 200px 200px 200px;
--moz-border-radius: 200px 200px 200px 200px;
--webkit-border-radius: 200px 200px 200px 200px;
-border: 0px solid #000000;
+   -moz-border-radius: 200px 200px 200px 200px;
+   -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
 }
 
 .panel {
