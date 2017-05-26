@@ -1,15 +1,15 @@
-.btn-group{
-	background-image: url(/lib/img/navbar.png); 
-	background-repeat: no-repeat;
-	width: 95%
-	
+.btn-success.active {
+    color: #fff;
+    background-color: #90bc21;
+    border-color: #90bc21;
 }
 
-.inicio{
-	border-radius: 200px 200px 200px 200px;
-   -moz-border-radius: 200px 200px 200px 200px;
-   -webkit-border-radius: 200px 200px 200px 200px;
-    border: 0px solid #000000;
+.btn-group{
+	/*background-image: url(/lib/img/navbar.png);*/
+	background-color: #90bc21; 
+	background-repeat: no-repeat;
+	width: 90%
+
 }
 
 .panel {
@@ -19,8 +19,4 @@
 .nav {
   margin-left: 120px;
   margin-top: 40px;
-}
-
-h1 {
-  margin-left: 50px;
 }
