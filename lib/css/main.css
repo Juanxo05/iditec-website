@@ -2,14 +2,15 @@
     color: #fff;
     background-color: #90bc21;
     border-color: #90bc21;
-}
+
+   }
 
 .btn-group{
 	/*background-image: url(/lib/img/navbar.png);*/
 	background-color: #90bc21; 
 	background-repeat: no-repeat;
 	width: 90%
-
+	content: center;
 }
 
 .panel {
