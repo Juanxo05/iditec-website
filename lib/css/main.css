@@ -21,3 +21,11 @@
   margin-left: 120px;
   margin-top: 40px;
 }
+
+.proceso{
+	border:dashed 0px #b4a935;
+   -moz-border-radius: 28px;
+   -webkit-border-radius: 28px;
+    border-radius: 28px;
+
+}

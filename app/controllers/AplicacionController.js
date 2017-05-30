@@ -2,7 +2,7 @@
 
 (function () {
   var controlador = angular.module('app-controller',[]);
-
+  
   controlador.controller('applicationController', ['$scope', function($scope){
   
 
@@ -18,4 +18,6 @@
       return $scope.menu==='app/views/'+menu+'.html';
     };
   }]);
+  
+
 })();
