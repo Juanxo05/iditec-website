@@ -1,3 +1,15 @@
+
+
+.list-group-item{
+
+  font-weight: bold; 
+  
+
+}
+.cabezera{
+  width: 100%;
+}
+
 .btn-success.active {
     color: #fff;
     background-color: #90bc21;
@@ -29,3 +41,9 @@
     border-radius: 28px;
 
 }
+
+.footer{
+  background-color: #0e161e;
+}
+
+

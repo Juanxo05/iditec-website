@@ -17,7 +17,7 @@ if (isset($_POST['inputName']) && isset($_POST['inputEmail']) && isset($_POST['i
 
     $mail->From = $_POST['inputEmail'];
     $mail->FromName = $_POST['inputName'];
-    $mail->AddAddress('by.yo.69@gmail.com'); //recipient 
+    $mail->AddAddress('juanxo05@gmail.com'); //recipient 
     $mail->Subject = $_POST['inputSubject'];
     $mail->Body = "Nombre: " . $_POST['inputName'] . "\r\n\r\nMensaje: " . stripslashes($_POST['inputMessage']);
 

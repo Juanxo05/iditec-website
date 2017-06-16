@@ -18,7 +18,9 @@
       return $scope.menu==='app/views/'+menu+'.html';
     };
   }]);
- var controladorContacto = angular.module('contactApp',[]);
+ 
+  var controladorContacto = angular.module('contactApp',[]);
+  
   controladorContacto.controller('applicationController',function ($scope, $http) {
     console.log("hace algo");
     $scope.result = 'hidden'
@@ -56,4 +58,5 @@
         }
     }
   });
+
 })();
